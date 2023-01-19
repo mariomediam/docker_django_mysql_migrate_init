@@ -32,7 +32,7 @@ c0c3edfe3957   mysql:8             "docker-entrypoint.s…"   4 minutes ago   Up
 
 ```
 
-Después de que se inicie la aplicación, vaya a `http://localhost:8000` en su navegador web.
+Después de que se inicie la aplicación, vaya a `http://localhost:8085` en su navegador web.
 
 ## Crear super usuario
 
@@ -43,4 +43,4 @@ $ docker exec -it docker_python_web python manage.py createsuperuser --username=
 
 Se solicitará una contraseña. Después de ingresar una, el usuario se creará inmediatamente.
 
-Luego vaya a `http://localhost:8000/admin` en su navegador web e ingrese el usuario y contraseña creado.
+Luego vaya a `http://localhost:8085/admin` en su navegador web e ingrese el usuario y contraseña creado.
