@@ -23,7 +23,7 @@ $ docker compose up -d
 
 ## Resultados esperados
 
-La lista de contenedores debe mostrar un contenedor en ejecución y la asignación de puertos como se muestra a continuación:
+La lista de contenedores debe mostrar dos contenedores en ejecución y la asignación de puertos como se muestra a continuación:
 ```
 $ docker ps
 CONTAINER ID   IMAGE               COMMAND                  CREATED         STATUS                   PORTS                               NAMES
